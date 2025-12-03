@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Travel Agency</title>
+<style>
+body{font-family:Arial;margin:0;background:#f9f9f9;color:#333}
+header{background:#006699;color:#fff;padding:20px;text-align:center}
+nav{background:#004466;padding:10px;text-align:center}
+nav a{color:#fff;margin:0 12px;text-decoration:none}
+section{padding:20px;max-width:900px;margin:auto}
+h2{color:#006699;margin-bottom:10px}
+.card{background:#fff;border:1px solid #ccc;border-radius:8px;padding:10px;margin:10px 0}
+.gallery{display:flex;gap:15px;flex-wrap:wrap;justify-content:center}
+.gallery img{width:250px;height:auto;border-radius:8px}
+form{display:flex;flex-direction:column;gap:10px}
+input,textarea{padding:8px;border:1px solid #ccc;border-radius:4px}
+button{background:#006699;color:#fff;padding:8px;border:none;border-radius:4px;cursor:pointer}
+button:hover{background:#004466}
+.tip{background:#fff;padding:10px;margin:6px 0;border-left:4px solid #006699}
+</style>
+</head>
+<body>
+<header>
+  <h1>✈️ GlobeTrek Travel Agency</h1>
+  <p>Explore the world with our curated packages</p>
+</header>
+<nav>
+  <a href="#packages">Packages</a>
+  <a href="#book">Booking</a>
+  <a href="#tips">Travel Tips</a>
+  <a href="#gallery">Gallery</a>
+</nav>
+
+<section id="packages">
+  <h2>Tour Packages</h2>
+  <div class="card">Romantic Paris Getaway — 5 Nights ₹89,999</div>
+  <div class="card">Adventure in Bali — 7 Nights ₹74,999</div>
+  <div class="card">Explore Rajasthan — 4 Nights ₹29,999</div>
+</section>
+
+<section id="book">
+  <h2>Book Your Trip</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <textarea rows="3" placeholder="Destination & Dates"></textarea>
+    <button type="submit">Submit Booking</button>
+  </form>
+</section>
+
+<section id="tips">
+  <h2>Travel Tips</h2>
+  <div class="tip">Pack light and carry essentials.</div>
+  <div class="tip">Always keep digital copies of documents.</div>
+  <div class="tip">Respect local culture and traditions.</div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <!-- Two short images -->
+  <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400" alt="Beach Destination">
+  <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Mountain Destination">
+</section>
+</body>
+</html>
